@@ -7,7 +7,7 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./todolist.component.css']
 })
 export class TodolistComponent {
-  taskArray=[{taskName:'Task 1',isCompleted:false}]
+  taskArray:Array<any>=[];
 
   onSubmit(form:NgForm){
     console.log(form);

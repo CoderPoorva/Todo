@@ -1,6 +1,25 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h1{
     text-align: center;
     font: 2rem;
+    color: darkblue;
+    letter-spacing: 12px;
+    font-weight: bold;
+}
+img{
+    margin: 0 15px 0 0;
+    height: 100px;
+}
+
+label{
+    color: rgb(8, 8, 111);
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 #submitButton{
@@ -10,4 +29,19 @@ h1{
 #myCheckbox{
     margin-left:30px;
     
+}
+
+.pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.notask{
+    width: 500px;
+    height: 500px;
+}
+
+th{
+    color: rgb(75, 103, 179);
 }
